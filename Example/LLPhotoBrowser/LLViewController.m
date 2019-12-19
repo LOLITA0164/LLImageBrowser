@@ -7,6 +7,7 @@
 //
 
 #import "LLViewController.h"
+#import <LLPhotoBrowser/LLPhotoBrowser.h>
 
 @interface LLViewController ()
 
@@ -19,6 +20,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+
+- (IBAction)tap:(UIButton *)sender {
+    
+    NSArray* images = @[
+        @"http://file02.16sucai.com/d/file/2014/0704/e53c868ee9e8e7b28c424b56afe2066d.jpg",
+        @"http://file02.16sucai.com/d/file/2015/0408/779334da99e40adb587d0ba715eca102.jpg",
+        @"http://file02.16sucai.com/d/file/2014/0829/372edfeb74c3119b666237bd4af92be5.jpg",
+    ];
+        
+    [LLPhotoBrowser showURLImages:images placeholderImage:nil selectedIndex:0 selectedView:sender];
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {
