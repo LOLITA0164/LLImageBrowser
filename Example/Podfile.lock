@@ -1,12 +1,12 @@
 PODS:
-  - LLPhotoBrowser (0.1.0):
+  - LLImageBrowser (0.1.0):
     - SDWebImage (~> 4.4.1)
   - SDWebImage (4.4.7):
     - SDWebImage/Core (= 4.4.7)
   - SDWebImage/Core (4.4.7)
 
 DEPENDENCIES:
-  - LLPhotoBrowser (from `../`)
+  - LLImageBrowser (from `../`)
   - SDWebImage (~> 4.4.1)
 
 SPEC REPOS:
@@ -14,13 +14,13 @@ SPEC REPOS:
     - SDWebImage
 
 EXTERNAL SOURCES:
-  LLPhotoBrowser:
+  LLImageBrowser:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LLPhotoBrowser: 9c963885fd8011d69d2210694659d0eae7e49b96
+  LLImageBrowser: e281ccb3b16ba3ba84d6187c78141018bb97fe3f
   SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
 
-PODFILE CHECKSUM: 46a287b01d043454a940ff906d5df5042c73ab03
+PODFILE CHECKSUM: 717498c2e01bcd8ed3958fc5a86396dda364bd52
 
 COCOAPODS: 1.7.2

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B4C889C2D9DC3A77CFB3DAD /* LLPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLPhotoBrowser.podspec; path = ../LLPhotoBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0B4C889C2D9DC3A77CFB3DAD /* LLImageBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLImageBrowser.podspec; path = ../LLImageBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		33E0EC340E2552F5D0BE500C /* Pods-LLPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLPhotoBrowser_Example.debug.xcconfig"; path = "Target Support Files/Pods-LLPhotoBrowser_Example/Pods-LLPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4CD5B5CC191D557850E301AF /* Pods_LLPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLPhotoBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LLPhotoBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLPhotoBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				0B4C889C2D9DC3A77CFB3DAD /* LLPhotoBrowser.podspec */,
+				0B4C889C2D9DC3A77CFB3DAD /* LLImageBrowser.podspec */,
 				F3B517CD82F9439EE0163D82 /* README.md */,
 				684F9D37731D8994796F3537 /* LICENSE */,
 			);
@@ -324,12 +324,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LLPhotoBrowser_Example/Pods-LLPhotoBrowser_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LLPhotoBrowser/LLPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/LLImageBrowser/LLImageBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLImageBrowser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

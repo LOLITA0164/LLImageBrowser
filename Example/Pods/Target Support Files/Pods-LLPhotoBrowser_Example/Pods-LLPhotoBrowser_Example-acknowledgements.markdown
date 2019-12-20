@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## LLPhotoBrowser
+## LLImageBrowser
 
 Copyright (c) 2019 LOLITA0164 <476512340@qq.com>
 

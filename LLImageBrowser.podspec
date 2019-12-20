@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint LLPhotoBrowser.podspec' to ensure this is a
+# Be sure to run `pod lib lint LLImageBrowser.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LLPhotoBrowser'
+  s.name             = 'LLImageBrowser'
   s.version          = '0.1.0'
   s.summary          = 'A short description of LLPhotoBrowser.'
 
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/LOLITA0164/LLPhotoBrowser'
+  s.homepage         = 'https://github.com/LOLITA0164/LLImageBrowser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LOLITA0164' => '476512340@qq.com' }
-  s.source           = { :git => 'https://github.com/LOLITA0164/LLPhotoBrowser.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LOLITA0164/LLImageBrowser.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LLPhotoBrowser/Classes/**/*'
+  s.source_files = 'LLImageBrowser/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'LLPhotoBrowser' => ['LLPhotoBrowser/Assets/*.png']
+  #   'LLImageBrowser' => ['LLImageBrowser/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

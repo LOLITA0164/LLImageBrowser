@@ -7,7 +7,7 @@
 //
 
 #import "LLViewController.h"
-#import <LLPhotoBrowser/LLPhotoBrowser.h>
+#import <LLImageBrowser/LLImageBrowser.h>
 
 @interface LLViewController ()
 
@@ -30,7 +30,7 @@
         @"http://file02.16sucai.com/d/file/2014/0829/372edfeb74c3119b666237bd4af92be5.jpg",
     ];
         
-    [LLPhotoBrowser showURLImages:images placeholderImage:nil selectedIndex:0 selectedView:sender];
+    [LLImageBrowser showURLImages:images placeholderImage:nil selectedIndex:0 selectedView:sender];
 }
 
 
